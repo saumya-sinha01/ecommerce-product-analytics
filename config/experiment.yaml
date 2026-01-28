@@ -1,0 +1,16 @@
+experiment:
+  name: pdp_redesign_experiment
+  description: PDP redesign to improve purchase conversion
+  start_date: "2023-06-01"
+  end_date: "2023-06-21"
+
+  assignment_unit: user_id
+  variants:
+    - control
+    - treatment
+
+  traffic_split:
+    control: 0.5
+    treatment: 0.5
+
+  eligibility_event: view_product

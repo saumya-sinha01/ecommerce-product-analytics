@@ -1,0 +1,14 @@
+metrics:
+  primary:
+    name: purchase_conversion_rate
+    numerator: purchases
+    denominator: eligible_users
+
+  secondary:
+    - add_to_cart_rate
+    - revenue_per_user
+
+  guardrails:
+    - bounce_rate
+    - avg_session_duration
+    - d7_retention
